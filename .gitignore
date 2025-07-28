@@ -1,0 +1,42 @@
+*.vsidx
+# Build results
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+artifacts/
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+
+# VS Code
+.vscode/
+
+# Visual Studio
+.vs/
+*.vc.db
+*.VC.VC.opendb
+
+# Rider
+.idea/
+*.sln.iml
+
+# Test results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# NuGet packages
+*.nupkg
+*.snupkg
+**/packages/*
+!**/packages/build/
+
+# ASP.NET scaffolding
+ScaffoldingReadMe.txt
+
+# Azure publish settings
+*.azurePubxml
+*.
