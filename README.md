@@ -14,9 +14,9 @@
 </h4>
 
 <p align="center">
- <a href="#about">About</a> �
- <a href="#how-to-run">How to Run</a>
-
+ <a href="#about">About</a> •
+ <a href="#how-to-run">How to Run</a> •
+ <a href="#how-to-setup-postgresql-db">How To Setup PostgreSql DB</a> •
 </p>
 
 ## About
