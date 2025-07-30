@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Nexus.NPS.Domain\Nexus.NPS.Domain.csproj" />
+    <ProjectReference Include="..\Nexus.NPS.Infra\Nexus.NPS.Infra.csproj" />
+  </ItemGroup>
+
 </Project>
