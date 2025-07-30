@@ -72,3 +72,13 @@ $ http://localhost:[port]/swagger/index.html
 $ Default port is set to 5000
 
 ```
+### How To Setup PostgreSql DB
+```
+# Using pgAdmin 4, create a new database named NexusNpsDB and leave Owner as postgres
+$ Right Click -> Create -> Database...
+$ Click Save
+
+# Right Click the new database -> Restore
+$ On Filename field, find and select the mydb_backup.backup file found on this project folder
+$ Click Restore
+```
