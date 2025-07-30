@@ -26,6 +26,7 @@ namespace Nexus.NPS.Application.Services
             if (existsRating != null )
             {
                 existsRating.Score = dto.Score;
+                if (!string.IsNullOrEmpty(dto.Comment)) existsRating.Comment = dto.Comment;
                 await _database.SaveChangesAsync();
             }
             else

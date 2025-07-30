@@ -2,8 +2,6 @@
 using Microsoft.Extensions.Logging;
 using Nexus.NPS.Domain.DTOs;
 using Nexus.NPS.Infra;
-using Nexus.NPS.Infra.Entities;
-
 
 namespace Nexus.NPS.Application.Services
 {
@@ -28,7 +26,8 @@ namespace Nexus.NPS.Application.Services
                     {
                         UserId = item.UserId,
                         ProductId = item.ProductId,
-                        Score = item.Score
+                        Score = item.Score,
+                        CreatedAt = item.CreatedAt
                     };
                     product.Add(rating);
                 }
@@ -42,7 +41,8 @@ namespace Nexus.NPS.Application.Services
                     {
                         UserId = item.UserId,
                         ProductId = item.ProductId,
-                        Score = item.Score
+                        Score = item.Score,
+                        CreatedAt = item.CreatedAt
                     };
                     product.Add(rating);
                 }
